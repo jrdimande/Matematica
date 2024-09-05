@@ -52,8 +52,8 @@ class Math:
         index = number
 
         while index > 0:
-            result = result * index
-            index = index - 1
+            result *=  index
+            index -= 1
 
         return result
 
