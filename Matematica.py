@@ -26,7 +26,7 @@ class Math:
             else:
                 x1 = (-b + (delta ** 0.5)) / (2 * a)
                 x2 = (-b - (delta ** 0.5)) / (2 * a)
-                response = f"As raízes são: x1 = {x1} ^ x2 = {x2}"
+                response = f" As raízes são: x1 = {x1} ^ x2 = {x2}"
 
                 return response
 
