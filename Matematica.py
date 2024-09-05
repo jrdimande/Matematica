@@ -47,6 +47,17 @@ class Math:
     def cos(self, ang):
         pass
 
+    def factorial(self, number):
+        result = 1
+        index = number
+
+        while index > 0:
+            result = result * index
+            index = index - 1
+
+        return result
+
+
 
 
 
